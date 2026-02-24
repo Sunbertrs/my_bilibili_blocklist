@@ -1,0 +1,2 @@
+# my_bilibili_blocklist
+Bilibili自用弹幕屏蔽规则
