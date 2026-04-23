@@ -5,7 +5,7 @@ import os
 
 LOCAL_PATH = os.path.abspath(os.path.dirname(__file__))
 INPUT_FILE = os.path.abspath(sys.argv[1])
-OUTPUT_FILE = sys.argv[2] if len(sys.argv) > 2 else os.path.join(LOCAL_PATH, 'output.csv')
+OUTPUT_FILE = sys.argv[2] if len(sys.argv) == 2 else os.path.join(LOCAL_PATH, 'output.csv')
 COLUMN = ["关键词/表达式", "类型"]
 
 def process_input_file(file):
